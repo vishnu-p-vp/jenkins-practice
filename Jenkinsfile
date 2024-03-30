@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage("test"){
             steps{
-                sh 'npm -v'
+                bat 'npm -v'
                 echo "done..."
             }
         }
