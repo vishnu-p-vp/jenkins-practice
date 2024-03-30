@@ -6,7 +6,8 @@ pipeline{
     stages{
         stage("test"){
             steps{
-                echo "done ok"
+                echo "npm -v"
+                echo "done..."
             }
         }
     }
